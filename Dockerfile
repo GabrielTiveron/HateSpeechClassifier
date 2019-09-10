@@ -3,7 +3,8 @@ FROM python:3.7
 RUN pip install jupyter \
        matplotlib \
        nltk \
-       pandas
+       pandas \
+       scikit-learn
 
 VOLUME /notebooks
 
