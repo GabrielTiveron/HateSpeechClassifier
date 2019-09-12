@@ -8,6 +8,6 @@ services:
       context: ./notebooks
       dockerfile: Dockerfile
     volumes:
-      - "./notebooks:/notebooks"
+      - "./:/notebooks"
     ports:
       - "8888:8888"
